@@ -1,0 +1,103 @@
+/* Place your CSS styles in this file */
+h2 {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    color: #000000;
+}
+h4 {
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    color: #000000;
+    line-height: 150%;
+}
+
+body {
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* This is for the navigation bar*/
+ul {
+    list-style-type: none;
+    float: right;
+    width: 100%;
+    transform: translateY(50%);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    align-content: center;
+    display: block;
+    color: #000000;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration-line: underline;
+}
+
+li.home {
+    font-family: 'Sans Serif', monospace;
+    font-size: 20pt;
+    align-content: center;
+    display: block;
+    color: #F9F7F6;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*this is for the content*/
+div.header {
+    height: 80px;
+    width: 80%;
+    background-color: #F9F7F6;
+    margin: 0;
+    top: 0;
+    padding: 0;
+    border: 1pt solid black;
+    transform: translate(11%,11%);
+}
+div.container {
+    height: 700px;
+    width: 80%;
+    background-color: #fed0bb;
+    margin: 0;
+    top: 0;
+    padding: 0;
+    transform: translate(11%,11%);
+    border: 1pt solid black;
+}
+
+div.content {
+    height: 300px;
+    width: 500px;
+    top: 0;
+    left: 0;
+    background-color: #fed0bb;
+    margin: 0;
+    border: 1pt solid black;
+    transform: translate(15%, 50%);
+
+}
+
+#first {
+    padding-top: 10pt;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/desk_wp.jpg");
+
+}
+
+#second {
+    background-color: white;
+}
